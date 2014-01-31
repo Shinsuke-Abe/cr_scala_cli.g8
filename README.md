@@ -1,3 +1,5 @@
+#Clockwork Robot - Scala CLI app template
+
 This is a fork of [pmandera/basic-scala-project.g8](https://github.com/pmandera/basic-scala-project.g8) - a [giter8](https://github.com/n8han/giter8) template for generating a new scala project. It comes bundled with:
 
 * `main` and `test` source directories
