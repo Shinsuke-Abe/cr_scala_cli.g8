@@ -19,3 +19,7 @@ scalacOptions in Test ++= Seq("-Yrangepos")
 resolvers ++= Seq("snapshots", "releases").map(Resolver.sonatypeRepo)
 
 initialCommands := "import $organization$.$name;format="lower,word"$._"
+
+ideaExcludeFolders += ".idea"
+
+ideaExcludeFolders += ".idea_modules"
